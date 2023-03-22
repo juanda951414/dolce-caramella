@@ -28,6 +28,10 @@
     top: 22px;
     left: 815px;
 }
+
+.contenedorLogo1 li{
+    list-style: none;
+}
 /*Modificación del logo de DolceCaramella*/
 .Logo{
     width: 10vh;
