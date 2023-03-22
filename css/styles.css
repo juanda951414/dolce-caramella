@@ -1,3 +1,11 @@
+/* Reset */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
 /*Aquí van las fuentes*/
 @font-face {
     font-family:"Relaway Italic" ;
@@ -15,18 +23,20 @@
 }
 .colorHeader{
     height: 12vh;
+    margin: 0 80px 0 80px;
     background-color:#c18189;
     position: sticky;
     top: 15px;
     z-index: 0;
     display: flex; 
     margin-bottom: 40px;
+    
 }
 
 .contenedorLogo1{
     position: relative;
     top: 22px;
-    left: 815px;
+    left: 700px;
 }
 
 .contenedorLogo1 li{
@@ -58,12 +68,11 @@
 }
 /*Se hizo el whattsapp este flotando en la página*/
 .whatssApp{
-    color: black;
-    width: 90px;
-    height: 50px;
     position: fixed;
     bottom: 20px;
-    right: 40px;
+    right: 90px;
+    font-size: 30px;
+    
 }
 /* estilos centrados*/
 .textoCentrado{
@@ -147,6 +156,12 @@
     background-color: #e9a1aaaf;
     width: 90%;
     margin: auto;
+}
+
+.frase{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 18px;
 }
 .papaPastel{
     width: 30%;
@@ -248,31 +263,33 @@
 /*Aquí me encargue de darle estilo al footer con las redes sociales, horarios y mensaje a nuestros clientes*/
 .colorFondoRedes{
     background-color: #c18189;
+    margin: 0 80px 0 80px;
+    display: flex;
 }
 .logoFooter{
-    top: auto;
+    position: absolute;
+    padding-left: 150px;
+    width: 22%;
+    height: 20%;
 }
 .colorMensa{
-    text-align: left;
     color: white;
-    position: relative;
-    top: 50px;
-    left: 10px;
+   padding: 120px 0 0 20px;
 }
 .ubiHorarios{
     text-align: center;
     color: white;
-    position: relative;
-    left: 65px;
+    padding: 35px 0 0 210px;
+    font-size: 20px;
+
 }
 .ubiRedes{
     display: flex;
-    justify-content: end;
-    margin-right: 150px;
+    padding: 70px 0 0 510px;
 }
 .ubiRedes a{
     color: white;
-    margin-top: auto;
+    font-size: 25px;
 }
    
 /*Aquí inicia "NOSOTROS"*/
