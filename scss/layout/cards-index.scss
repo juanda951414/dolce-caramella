@@ -1,0 +1,44 @@
+.contenedorPostres{
+    background-color: $color2;
+    width: 90%;
+    margin: auto;
+}
+
+.papaPastel{
+    width: 30%;
+    height: 500px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 132px;
+}
+.pastelitos{
+    width: 100%;
+    height: 90%;
+    border-radius: 10px 10px;
+    object-fit: cover;
+}
+.papaPastel h2{
+    text-align: center;
+}
+.papaPastel p{
+    text-align: center;
+}
+
+.titulo{
+    h1{
+        text-align: center;
+        font-size: 30px;
+    }
+     h2{
+        text-align: center;
+        font-size: 32px;
+     }
+     
+}
+
+.frase{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 18px;
+}
+    

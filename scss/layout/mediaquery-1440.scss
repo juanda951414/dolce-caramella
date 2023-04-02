@@ -1,0 +1,112 @@
+@media (max-width: 1440px){
+
+    .colorHeader{
+        width: 90%;
+        margin: 0 96px 0 76px;
+        margin-bottom: 40px;  
+    }
+
+    .contenedorLogo1{
+        left: 480px;
+    }
+    
+    /*tamaño y letra de la estetica del menú páginas*/
+    .linkNav{
+        font-size: 16px;
+        margin: 0 20px 30px 15px;
+    }
+
+    //Cards index
+    
+    .contenedorPostres{
+        background-color: $color2;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .papaPastel{
+        width: 29%;
+        margin: 22px;
+    }
+    
+    .papaPastel h2{
+        text-align: center;
+    }
+    .papaPastel p{
+        text-align: center;
+    }
+    
+    .titulo{
+        h1{
+            text-align: center;
+            font-size: 30px;
+        }
+         h2{
+            text-align: center;
+            font-size: 32px;
+         }
+         
+    }
+    
+    .frase{
+        text-align: center;
+        padding-top: 40px;
+        font-size: 18px;
+    }
+    
+    //Cards arma
+
+    .armaTuPedido{
+        height: 1000px;
+        margin: 0 0 0 90px;
+        
+        img{
+            width: 30%;
+            height: 44%;
+            margin: 30px 100px 30px 130px;
+        }
+    }
+
+    //video
+    .video{
+        width: 100%;
+    }
+    
+    .video2{
+        margin-left: 350px;
+    }
+//footer
+.colorFondoRedes{
+    margin: 12px 54px 0 76px;
+}
+.logoFooter{
+    padding-left: 87px;
+    width: 25%;
+    height: 26%;
+}
+.colorMensa{
+    text-align: center;
+    color: white;
+   padding: 111px 0 0 26px;
+}
+.ubiHorarios{
+    text-align: center;
+    color: white;
+    padding: 14px 0 0 126px;
+    font-size: 20px;
+
+}
+.ubiRedes{
+    display: flex;
+    padding: 75px 160px 0 240px;
+}
+.ubiRedes a{
+    color: white;
+    font-size: 25px;
+}
+
+    
+    
+    
+    
+}

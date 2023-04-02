@@ -1,0 +1,44 @@
+.tituloEspeciales{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 40px;
+    width: 50%;
+    margin:0 auto;
+    background-color: rgba(255, 163, 163, 0.545);
+    margin-bottom: 50px;
+}
+.tituloEspeciales h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+.tituloEspeciales p{
+    color: black;
+
+}
+.papaContenedorEspecial{
+    width: 100%;
+}
+.contenedorEspecial1{
+    font-size: 1.5rem;
+    padding: 40px;
+    background-color:#e216161f;
+    display: flex;
+    margin: 29px 78px 43px 71px;
+    border-radius: 20px 20px;
+
+}
+.contenedorEspecial1 h2{
+    font-size: 60px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.contenedorEspecial1 p{
+  text-align: center;
+}
+
+.contenedorEspecial1  img{
+    width: 45%;
+    height: 290px;
+    border-radius: 20px 20px;
+    margin-right: 10px;
+}

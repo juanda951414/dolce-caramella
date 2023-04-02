@@ -1,0 +1,30 @@
+.tituloAmbiente{
+    text-align: center;
+    margin-top: 40px;
+    font-family: inherit;
+}
+.contenedorAmbiente{
+    background-color: $color2;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.contenedorAmbiente div{
+    width: 500px;
+    height: 401px;
+    margin: 50px;
+    display: contents;
+    border-radius: 10px;
+}
+.contenedorAmbiente img{
+    width: 500px;
+    height: 100%;
+    border-radius: 50px 50px;
+    object-fit: cover;
+}
+.contenedorAmbiente p{
+    text-align: justify;
+    padding: 5px 25px 10px 25px;
+    font-family:fantasy;
+    width: 100%;
+}

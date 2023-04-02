@@ -1,0 +1,353 @@
+/* Reset */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+/*Aquí van las fuentes*/
+@font-face {
+    font-family:"Relaway Italic" ;
+    src: url("../assets:fonts/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf");
+}
+/*falta modificarmargen*/
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.body{
+    background-color: #c18189;
+}
+
+.colorHeader{
+    height: 12vh;
+    margin: 0 80px 0 80px;
+    background-color:#c18189;
+    position: sticky;
+    top: 15px;
+    z-index: 0;
+    display: flex; 
+    margin-bottom: 40px;
+    
+}
+
+.contenedorLogo1{
+    position: relative;
+    top: 22px;
+    left: 700px;
+}
+.Logo{
+    width: 10vh;
+    height: 10vh;
+    display:inline-block ;
+    margin: auto;
+}
+
+.contenedorLogo1 li{
+    list-style: none;
+}
+/*tamaño y letra de la estetica del menú páginas*/
+.linkNav{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    font-size: 20px;
+    margin: 10px 20px;
+    margin-top: 30px 30px∫;
+    bottom: 10px;
+    display: inline-block;
+}
+/*Se hizo el whattsapp este flotando en la página*/
+.whatssApp{
+    position: fixed;
+    bottom: 20px;
+    right: 90px;
+    font-size: 30px;
+    
+}
+.productosMedioAmbiente{
+   background-color: #e9a1aaaf;
+   margin-left: 85px;
+   margin-right: 85px;
+    
+}
+.titulo{
+    text-align: center;
+    height: auto;
+}
+.tituloAmbiente{
+    text-align: center;
+    margin-top: 40px;
+    font-family: inherit;
+}
+.contenedorAmbiente{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.contenedorAmbiente div{
+    width: 500px;
+    height: 401px;
+    margin: 50px;
+    display: contents;
+    border-radius: 10px;
+}
+.contenedorAmbiente img{
+    width: 500px;
+    height: 100%;
+    border-radius: 50px 50px;
+    object-fit: cover;
+}
+.contenedorAmbiente p{
+    text-align: justify;
+    margin-bottom: 50px;
+    font-family:fantasy;
+    width: 100%;
+}
+.contenedorTituloMapaInicio{
+    text-align: center;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.contenedorMapaInicio iframe{
+    width: 100%;
+}
+/* Aquí inicia, la zona de productos organización de una galería que busca llevarlo a uno a la página "Productos"*/
+.tituloProductos{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 40px;
+    width: 50%;
+    margin:0 auto;
+    background-color: rgba(255, 163, 163, 0.545);
+    margin-bottom: 50px;
+}
+.tituloProductos h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+
+}
+.tituloProductos p{
+  color: gray;
+
+}
+.contenedorPostres{
+    background-color: #e9a1aaaf;
+    width: 90%;
+    margin: auto;
+}
+
+.frase{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 18px;
+}
+.papaPastel{
+    width: 30%;
+    height: 500px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 132px;
+}
+.pastelitos{
+    width: 100%;
+    height: 90%;
+    border-radius: 10px 10px;
+    object-fit: cover;
+}
+.papaPastel h2{
+    text-align: center;
+}
+.papaPastel p{
+    text-align: center;
+}
+.contenedorArmaTuPostre{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 30px;
+    width: 50%;
+    margin:0 auto;
+    background-color: rgba(255, 163, 163, 0.545);
+    margin-bottom: auto;
+    margin-top: 50px;
+}
+.contenedorImagenesArmaTuPostre{
+    width: 45%;
+    margin: 0 auto;
+}
+.contenedorImagenesArmaTuPostre div{
+    height: 500px;
+    margin: 40px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.contenedorImagenesArmaTuPostre img{
+    width: 100%;
+    height: 90%;
+    border-radius: 20px 20px;
+    object-fit: cover;
+
+}
+
+.contenedorVideo{
+    text-align: center;
+}
+
+
+
+/*Aquí empieza la página ESPECIALES*/
+.tituloEspeciales{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 40px;
+    width: 50%;
+    margin:0 auto;
+    background-color: rgba(255, 163, 163, 0.545);
+    margin-bottom: 50px;
+}
+.tituloEspeciales h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+.tituloEspeciales p{
+    color: black;
+
+}
+.contenedorEspecial1{
+    font-size: 1.5rem;
+    padding: 40px;
+    background-color:#e216161f;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    border-radius: 20px 20px;
+}
+.contenedorEspecial1 h2{
+    font-size: 60px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.contenedorEspecial1 p{
+  text-align: center;
+}
+
+.contenedorEspecial1  img{
+    width: 45%;
+    height: 290px;
+    border-radius: 20px 20px;
+    margin-right: 10px;
+}
+
+/*Aquí me encargue de darle estilo al footer con las redes sociales, horarios y mensaje a nuestros clientes*/
+.colorFondoRedes{
+    background-color: #c18189;
+    margin: 0 80px 0 80px;
+    display: flex;
+}
+.logoFooter{
+    position: absolute;
+    padding-left: 150px;
+    width: 22%;
+    height: 20%;
+}
+.colorMensa{
+    color: white;
+   padding: 120px 0 0 20px;
+}
+.ubiHorarios{
+    text-align: center;
+    color: white;
+    padding: 35px 0 0 210px;
+    font-size: 20px;
+
+}
+.ubiRedes{
+    display: flex;
+    padding: 70px 0 0 510px;
+}
+.ubiRedes a{
+    color: white;
+    font-size: 25px;
+}
+   
+/*Aquí inicia "NOSOTROS"*/
+.textoPrincipalNosotros{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px;
+    width: 50%;
+    margin:0 auto;
+    background-color: gold;
+    margin-bottom: 20px;
+}
+.tituloNosotros{
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+}
+    
+
+
+
+
+
+
+
+/*Sección contacto*/
+.tituloFormulario{
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.contenedorFormulario{
+    text-align: center;
+    
+}
+.ubiMaps{
+    width: 100vh;
+    height: auto;
+    display: inline-block;
+
+}
+.maps{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+
+}
+.horariosMapContacto{
+    background-color: aqua;
+    width: 1000px;
+    padding: auto;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 110%;
+}
+
+.form{
+    
+    margin-left: 650px;
+    width: 30%;
+}
+
+
+.col-md-6{
+    margin-left: 60px;
+    width: 450px;
+}
+
+.col-12{
+    margin-left: 60px;
+    width: 450px;
+}
+
+.col-md-2{
+    margin-left: 60px;
+    width: 450px;
+}
