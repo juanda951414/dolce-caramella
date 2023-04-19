@@ -45,7 +45,8 @@
   position: fixed;
   bottom: 20px;
   right: 90px;
-  font-size: 30px; }
+  font-size: 30px;
+  color: greenyellow; }
 
 .contenedorPostres {
   background-color: #e9a1aaaf;
@@ -73,7 +74,8 @@
 
 .titulo h1 {
   text-align: center;
-  font-size: 30px; }
+  font-size: 50px;
+  text-decoration: underline; }
 
 .titulo h2 {
   text-align: center;
@@ -111,7 +113,7 @@
 .contenedorAmbiente p {
   text-align: justify;
   padding: 5px 25px 10px 25px;
-  font-family: fantasy;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   width: 100%; }
 
 .armaTuPedido {
@@ -123,9 +125,12 @@
   gap: 10px; }
   .armaTuPedido img {
     width: 35%;
-    height: 48%;
+    height: 46%;
     border-radius: 15%;
     margin: 12px 100px 10px 130px; }
+  .armaTuPedido h2 {
+    text-align: center;
+    text-decoration: underline; }
 
 .video {
   width: 100%; }
@@ -133,8 +138,9 @@
 .video2 {
   margin-left: 600px; }
   .video2 h2 {
-    margin-top: 20px;
-    margin-left: 95px; }
+    margin-top: 60px;
+    margin-left: 95px;
+    text-decoration: underline; }
 
 .mapa {
   width: 80%; }
@@ -142,7 +148,8 @@
 .contenedorTituloMapaInicio {
   text-align: center;
   margin: 30px 0 20px 360px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: underline; }
 
 .contenedorMapaInicio iframe {
   margin-left: 160px;
@@ -189,7 +196,8 @@
 
 .tituloProductos h1 {
   font-size: 60px;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  text-decoration: underline; }
 
 .tituloProductos p {
   color: gray; }
@@ -269,7 +277,8 @@
 
 .tituloEspeciales h1 {
   font-size: 60px;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  text-decoration: underline; }
 
 .tituloEspeciales p {
   color: black; }
@@ -288,7 +297,8 @@
 .contenedorEspecial1 h2 {
   font-size: 60px;
   margin-bottom: 25px;
-  text-align: center; }
+  text-align: center;
+  text-decoration: underline; }
 
 .contenedorEspecial1 p {
   text-align: center; }
@@ -312,7 +322,8 @@
   width: 50%;
   margin: 0 auto;
   background-color: #e9a1aaaf;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
 
 .contenedorNosotros img {
   width: 93%;
@@ -324,7 +335,8 @@
 .tituloFormulario {
   text-align: center;
   margin-bottom: auto;
-  margin-top: auto; }
+  margin-top: auto;
+  text-decoration: underline; }
 
 .contenedorFormulario {
   text-align: center; }
@@ -357,7 +369,7 @@
   height: 50vh;
   object-fit: cover; }
 
-@media (max-width: 1440px) {
+@media (max-widht: 1440px) {
   .colorHeader {
     width: 90%;
     margin: 0 96px 0 76px;
@@ -424,7 +436,48 @@
 
 @media (max-widht: 1024px) {
   .colorHeader {
-    width: 100%;
-    margin: 0 50px 80px px; }
+    width: 92%;
+    margin: 0 0 0 41px; }
   .contenedorLogo1 {
-    left: 10px; } }
+    top: 13px;
+    left: 10px; }
+  .whatsapp {
+    bottom: 24px;
+    right: 140px;
+    font-size: 34px; }
+  .contenedorPostres {
+    width: 92%;
+    margin: 10px 0 0 37px; }
+  .papaPastel {
+    width: 27%;
+    margin: 25px; }
+  .contenedorAmbiente {
+    width: 95%; }
+  .contenedorAmbiente img {
+    width: 320px;
+    height: 126%; }
+  .armaTuPedido {
+    width: 88%; }
+  .armaTuPedido img {
+    width: 37%;
+    height: 43%;
+    margin: 30px 23px 0 69px; }
+  .video2 {
+    margin-left: 170px; }
+  .mapa {
+    width: 74%; }
+  .contenedorTituloMapaInicio {
+    margin: 29px 9px 12px 378px; }
+  .colorFondoRedes {
+    margin: 12px 27px 0 3px; }
+  .logoFooter {
+    padding-left: 63px;
+    width: 32%;
+    height: 23%; }
+  .colorMensa {
+    padding: 94px 77px 0 14px; }
+  .ubiHorarios {
+    padding: 8px 31px 0 19px;
+    font-size: 15px; }
+  .ubiRedes {
+    padding: 66px 60px 0 123px; } }

@@ -1,4 +1,4 @@
-@media (max-width: 1440px){
+@media (max-widht:1440px) {
 
     .colorHeader{
         width: 90%;
@@ -44,7 +44,7 @@
          h2{
             text-align: center;
             font-size: 32px;
-         }
+        }
          
     }
     
@@ -75,35 +75,36 @@
     .video2{
         margin-left: 350px;
     }
-//footer
-.colorFondoRedes{
-    margin: 12px 54px 0 76px;
-}
-.logoFooter{
-    padding-left: 87px;
-    width: 25%;
-    height: 26%;
-}
-.colorMensa{
-    text-align: center;
-    color: white;
-   padding: 111px 0 0 26px;
-}
-.ubiHorarios{
-    text-align: center;
-    color: white;
-    padding: 14px 0 0 126px;
-    font-size: 20px;
+    
+    //footer
+    .colorFondoRedes{
+        margin: 12px 54px 0 76px;
+    }
+    .logoFooter{
+        padding-left: 87px;
+        width: 25%;
+        height: 26%;
+    }
+    .colorMensa{
+        text-align: center;
+        color: white;
+        padding: 111px 0 0 26px;
+    }
+    .ubiHorarios{
+        text-align: center;
+        color: white;
+        padding: 14px 0 0 126px;
+        font-size: 20px;
 
-}
-.ubiRedes{
-    display: flex;
-    padding: 75px 160px 0 240px;
-}
-.ubiRedes a{
-    color: white;
-    font-size: 25px;
-}
+    }
+    .ubiRedes{
+        display: flex;
+        padding: 75px 160px 0 240px;
+    }
+    .ubiRedes a{
+        color: white;
+        font-size: 25px;
+    }
 
     
     
